@@ -72,8 +72,8 @@ label{
 
 .form-align{
   margin-left: 2rem;
-  padding-top: 5rem;
-  padding-bottom: 7rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 .send-botton{
@@ -90,4 +90,11 @@ label{
   font-weight: bolder;
   margin: 20px 0;
   margin-left: 380px;
+}
+
+.name-txt{
+  color:#e0050b;
+  font-size: 45px;
+  padding-left: 13rem;
+  
 }

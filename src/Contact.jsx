@@ -64,9 +64,11 @@ Maecenas scelerisque arcu vitae leo volutpat malesuada. <b>Vivamus venenatis fri
 
   <h2 className="red-box">”Consectetur adipiscing elit*, ut tristique ipsum.”</h2>
   <p className="grey-text">* Donec facilisis bibendum interdum.</p>
+  <h2 className="name-txt"> HI {fullname} <img src="/img_2048/ic_vist.png" width="30" height="30"></img></h2> 
 </div>
 
 </div>
+
 <div className="form-align">
       <div >
          <h4 className="contact-form">Form</h4>
@@ -92,13 +94,15 @@ Maecenas scelerisque arcu vitae leo volutpat malesuada. <b>Vivamus venenatis fri
           <div >
           {this.state.warning !== '' } 
           <div className="send-botton">
-          <input className="button"
+          <input onClick = {this.fullname} className="button"
                 type="submit"
                 value="Send"
               />
               </div>
           </div>
           </form>
+          <div>
+          </div>
           </div>
       </div>
     )
