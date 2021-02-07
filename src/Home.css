@@ -1,0 +1,142 @@
+
+*{
+    /* font-family: none; */
+    list-style:none;
+    text-decoration: none;
+    border:none;
+    outline:none;
+    padding:0;
+    margin:0
+  }
+  
+  .home{
+    background: linear-gradient(to left, #e8e8e8 , #FFFFFF) ;
+  }
+  
+  i{
+    color: #e0050b;
+  }
+  
+  h1{
+    font-size: 2.6rem;
+    margin-left:4rem ;
+    word-spacing: 5px;
+    
+  }
+  
+  .txt-simega3{
+    padding-top: 7.24rem;
+    padding-bottom: 7.3rem;
+  }
+  
+  .txt-home{
+    padding-top: 4rem;
+  }
+
+  .footer-img{
+    position: absolute;
+  bottom: 0;
+  
+  }
+  
+  /* ANIMATIONS */
+ 
+  .VelozIn {
+ 
+    animation: VelozIn 7.5s ;
+  
+  }
+  
+  @keyframes VelozIn {
+   
+    0% {
+      opacity: 0;
+      transform: translateX(-100vw) skewX(70deg);
+    }
+      
+    60% {
+      opacity: 1;
+      transform: skewX(0deg);
+      
+    }
+    
+    80% {
+      transform: skewX(0deg);
+    }
+    
+  }
+
+  .VelozIn1 {
+ 
+    animation: VelozIn1 5.5s ;
+  
+  }
+  
+  @keyframes VelozIn1 {
+   
+    0% {
+      opacity: 0;
+      transform: translateX(200vw) skewX(70deg);
+    }
+      
+    60% {
+      opacity: 1;
+      transform: skewX(0deg);
+      
+    }
+    
+    80% {
+      transform: skewX(0deg);
+    }
+    
+  }
+
+  .VelozIn2 {
+ 
+    animation: VelozIn2 9s ;
+  
+  }
+  
+  @keyframes VelozIn2 {
+   
+    0% {
+      opacity: 0;
+      transform: translateX(100vw) skewX(270deg);
+    }
+      
+    60% {
+      opacity: 1;
+      transform: skewX(-20deg);
+      
+    }
+    
+    80% {
+      transform: skewX(15deg);
+    }
+    
+  }
+ 
+  .VelozIn3 {
+ 
+    animation: VelozIn3 2.5s ;
+  
+  }
+  
+  @keyframes VelozIn3 {
+   
+    0% {
+      opacity: 0;
+      transform: translateY(-10vw) skewY(30deg);
+    }
+      
+    60% {
+      opacity: 1;
+      transform: skewY(deg);
+      
+    }
+    
+    80% {
+      transform: skewY(deg);
+    }
+    
+  }
